@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWAG Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <h1 align="center"><i>SWAG </i> SEARCH</h1>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <p align="center"> <input type="search" id="text" value="">
+            <button id="button" onclick="openURL()" align="center">Search</button></p>
+    
+            <script>
+            function openURL(){
+                var userInput = document.getElementById("text").value;
+                window.open("http://" + userInput)
+            }
+            </script>
+</body>
+</html>
